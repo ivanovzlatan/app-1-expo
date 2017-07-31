@@ -1,0 +1,133 @@
+.hlist {
+  flex:1;
+}
+
+.body {
+  background-color: "JS(Color.main)";
+  height: "JS(height)";
+}
+
+
+.panel {
+  background-color: #fff;
+  border-color: #eee;
+  border-bottom-width: 1;
+  flex-direction: "JS(Constants.RTL ? 'row-reverse' : 'row')" ;
+}
+
+.title {
+  width: "JS(vw * 70)";
+}
+
+.image {
+  margin-top: 12;
+  margin-left: 8;
+  margin-right: 8;
+  margin-bottom: 8;
+
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: "JS(vw * 30)";
+  height: "JS(vw * 30 - 20)";
+
+  border-radius: 2;
+}
+
+.shareIcon {
+  flex-direction: row-reverse;
+  position: absolute;
+  left: 8;
+  bottom: 2;
+}
+
+.name {
+  font-size: 14;
+  margin-left: 8;
+  margin-top: 12;
+  margin-right: 8;
+  color: #333;
+  font-weight: 400;
+}
+
+.time {
+  margin-left: 8;
+  margin-right: 8;
+  color: #999;
+  font-size: 11;
+  margin-bottom: 10;
+  margin-top: 6;
+  background-color: transparent;
+}
+
+.topBar {
+  width: "JS(width)";
+  height: 35;
+  background-color: rgba(0, 0, 0, 0.2);
+  flex-direction: "JS(Constants.RTL ? 'row-reverse' : 'row')" ;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 22;
+}
+
+.toolbarMenu  {
+  height: 50;
+  width: "JS(width)";
+  background-color: "JS(Color.toolbar)";
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15;
+  padding-top: 13;
+  padding-right: 15;
+
+  position: relative;
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+
+.clearText  {
+  margin-right: 12;
+  color: #ffffff;
+}
+
+
+.slide {
+  width: "JS((vw * 86))";
+  margin-top: "JS(vh * 4)";
+}
+.viewShadow {
+  shadow-color: #000;
+  shadow-opacity: 0.4;
+  shadow-radius: 8;
+  shadow-offset: "JS({width: 0, height: 2})";
+
+  border-radius: 3;
+  width: "JS(vw * 86)";
+  margin-left: "JS(vw * 8 - 1)";
+}
+.card {
+  border-radius: 3;
+  overflow: hidden;
+}
+.cardImage {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: "JS(vw * 86)";
+  height: "JS(vh * 40)";
+  border-radius: 3;
+}
+.cardTitle {
+  width: "JS(vw * 86)";
+  padding: 8;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: "JS(vh * 25)";
+}
+.cardName {
+  font-size: 18;
+  font-weight: 300;
+  margin: 8;
+}
+.cardTime {
+  margin: 8;
+  color: #999;
+}

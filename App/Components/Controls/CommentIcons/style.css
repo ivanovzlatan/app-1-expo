@@ -1,0 +1,18 @@
+.shareIcon {
+  flex-direction: row;
+  position: absolute;
+  right: 8;
+  bottom: 2;
+}
+
+.newsIcons {
+  margin-left: 2;
+  padding: 3;
+  padding-bottom: 8;
+}
+
+.iconText {
+  margin-left: -6;
+  font-size: 13;
+  font-weight: 500;
+}

@@ -1,0 +1,11 @@
+.wrap{
+  flex:1
+}
+.boxSetting{
+  flex:3;
+  padding:10;
+  border-width: 1;
+  border-color: #eee;;
+  border-style: solid;
+  margin:10;
+}

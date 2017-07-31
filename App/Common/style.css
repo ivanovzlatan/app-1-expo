@@ -1,0 +1,350 @@
+
+.h3 {
+  color: #494949;
+  font-size: 16px;
+}
+
+.toolbarView {
+  background-color: "JS(Color.main)";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: "JS(width)";
+
+}
+
+.toolbarMenu  {
+  height: 50;
+  width: "JS(width)";
+  background-color: "JS(Color.toolbar)";
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15;
+  padding-top: 13;
+  padding-right: 15;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+
+.toolbarMenuAndroid  {
+  height: 50;
+
+  width: "JS(width)";
+  background-color: "JS(Color.toolbar)";
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15;
+  padding-top: 13;
+  padding-right: 15;
+
+  position: relative;
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+
+.toolbarTitleView {
+  position: absolute;
+  top: 2;
+  left: 6;
+  width: "JS(width - 160)";
+  height: 40;
+  margin-left: 0;
+  margin-right: 80;
+  align-items: flex-start;
+}
+
+.toolbarHome {
+  position: absolute;
+  top: 2;
+  left: "JS(width/2 - 77)";
+  width: "JS(width)";
+  height: 40;
+  margin-left: 0;
+  align-items: flex-start;
+}
+
+.toolbarLogo {
+  height: 13;
+  top: 6;
+  width: 155;
+  resize-mode: contain;
+
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+
+.toolbarTitle {
+  color: "JS(Color.text)";
+  font-size: 17;
+  margin-bottom: 4;
+  font-weight: 500;
+  align-self: flex-start;
+  left: 25;
+
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+
+.textcolor {
+  color: #494949;
+}
+
+.icon {
+  font-size: 40;
+  color: #494949;
+}
+.icon32 {
+  font-size: 32;
+  color: #494949;
+}
+.imageIconView  {
+  margin-left: 2;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 2;
+
+  margin-bottom:10;
+  shadow-color: #000;
+
+  width: 35;
+  z-index: 10;
+
+  height: 50;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageIcon {
+  width: 16px;
+  height: 16px;
+}
+.imageIconLarge {
+  width: 18px;
+  height: 18px;
+}
+.iconHome {
+  width: 20px;
+  margin-left: -4px;
+}
+.iconPadding {
+  padding: 10;
+}
+
+.iconLarge {
+  width: 24;
+}
+.iconBack {
+  margin-left: 0px;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+  top: -8;
+  color: "JS(Color.text)";
+}
+
+.iconBackAndroid {
+  margin-left: 0px;
+  position: absolute;
+  left: -10;
+  top: -2;
+  color: "JS(Color.text)";
+}
+
+.textBack {
+  color: "JS(Color.text)";
+  font-size: 16;
+  margin-top: -11;
+  left: 4;
+  transform: "JS([{scaleX: Constants.RTL ? -1 : 1 }])";
+}
+.rowCenter {
+  flex-direction: row;
+  align-items: center;
+}
+
+.padLeft10 {
+    margin-left: 18px;
+}
+
+.toolbar {
+    background-color: "JS(Color.main)";
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    padding-top: 28px;
+}
+
+.logo {
+  resize-mode: contain;
+  height: 22;
+  margin: 0px;
+}
+
+.modal {
+  margin: 20px;
+  border-radius: 3;
+  overflow: hidden;
+}
+
+.image {
+  width: "JS(width-20)"
+}
+
+.inputIcon {
+  position: absolute;
+  left: 0;
+  top: 6;
+  resize-mode: contain;
+  height: 24;
+  width: 24;
+}
+
+.buttonRound {
+  position: relative;
+  border-color: #ddd;
+  border-width: 0.8px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 8px;
+  margin-top: 10px;
+  padding-bottom: 8px;
+}
+
+
+
+.button {
+  background-color: #fff;
+  padding: 10;
+  border-color: transparent;
+  border-width: 2;
+  align-self: stretch;
+  border-radius: 23;
+  height: 45;
+  margin-top: 18;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.buttonColor {
+  background-color: #eee;
+  padding: 10;
+  border-color: transparent;
+  border-width: 2;
+  align-self: stretch;
+  border-radius: 23;
+  height: 45;
+  margin-top: 18;
+  margin-left: 10;
+  margin-right: 10;
+}
+
+.buttonText {
+  color: #eee;
+  align-self: center;
+  font-size: 18
+}
+
+.buttonColorText {
+  color: #fff;
+  align-self: center;
+  font-size: 17
+}
+
+.textInput {
+  height: 40;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  padding-left: 40;
+}
+
+.textInputDark {
+  height: 40;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.9);
+  padding-left: 40
+}
+
+.outerBorder {
+  position: relative;
+  border-color: white;
+  border-width: 0.8;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 15;
+  margin-top: 5
+}
+
+.outerBorderDark {
+  position: relative;
+  border-color: #aaa;
+  border-width: 0.8;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  margin: 15;
+  margin-top: 5
+}
+
+.inputSearch {
+  height: 34;
+  border-color: #ddd;
+  border-width: 1px;
+  font-size: 14px;
+  padding: 8;
+  padding-left: 8px;
+  border-radius: 4px;
+  margin-top: 8;
+  margin-left: 10;
+  margin-right: 10;
+  margin-bottom: 8px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: "JS(width - 20)";
+}
+
+.searchBox {
+  height: 0;
+}
+
+.halfWidth {
+  width: "JS(width/2 - 20)";
+}
+
+
+.templateLayout {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.templateRow {
+  width: "JS(width/2 - 12)";
+  height: "JS(vh * 21)";
+  background-color: #f9f9f9;
+  margin-left: 8;
+  margin-bottom: 8;
+  border-width: 1;
+  border-color: #eee;
+  align-items: center;
+  justify-content: center;
+}
+.templateImage {
+  width: "JS(width/2-12)";
+  height: 100;
+  resize-mode: contain;
+}
+.templateMenu {
+  color: #888;
+  font-weight: 600;
+  font-size: 12;
+}
+
+.iconHide {
+  opacity: 0.2;
+}

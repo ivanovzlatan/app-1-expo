@@ -1,0 +1,30 @@
+{
+  "name": "app-1-expo",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "@expo/vector-icons": "^5.0.0",
+    "expo": "17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-addons-shallow-compare": "^15.5.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-native-global-props": "^1.1.1",
+    "react-native-invertible-scroll-view": "^1.0.0",
+    "react-native-render-html": "^2.0.0",
+    "react-native-router-flux": "^3.35.0",
+    "react-native-spinkit": "^1.0.2",
+    "react-native-vector-icons": "^4.1.1",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "url": "^0.11.0",
+    "util": "^0.10.3",
+    "wpapi": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0"
+  }
+}
